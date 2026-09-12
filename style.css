@@ -154,15 +154,15 @@ h1 {
   }
 
   .reviews {
-    margin-right: auto;
+    margin-right: auto !important;
   }
 
   .report-guru {
-    justify-self: center;
+    justify-self: center !important;
   }
 
   .besttech {
-    margin-right: 0;
+    margin-right: 0 !important;
   }
 
   .ratings li p {
