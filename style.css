@@ -107,7 +107,7 @@ h1 {
   font-size: 16px;
 }
 
-blockquote {
+.testimonial-text {
   line-height: 1.6;
 }
 
@@ -148,25 +148,21 @@ blockquote {
   }
 
   .ratings li {
-    flex-direction: row;
     padding: 20px 50px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
     justify-self: end;
-    width: fit-content;
     text-align: left;
   }
 
-  .ratings li:nth-child(1) {
-    margin-right: 100px;
+  .reviews {
+    margin-right: auto;
   }
 
-  .ratings li:nth-child(2) {
-    margin-right: 15px;
+  .report-guru {
+    justify-self: center;
   }
 
-  .ratings li:nth-child(3) {
-    margin-right: -15px;
+  .besttech {
+    margin-right: 0;
   }
 
   .ratings li p {
