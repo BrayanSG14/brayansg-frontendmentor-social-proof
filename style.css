@@ -10,6 +10,7 @@ body {
   color: hsl(303, 10%, 53%);
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 64px 24px;
 }
 
@@ -113,7 +114,9 @@ h1 {
 
 @media (min-width: 950px) {
   body {
-    padding: 120px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   main {
